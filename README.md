@@ -43,5 +43,27 @@ We can conclude two things:
 
 ## T-Test on Suspension Coils
 
+General PSI of the total production has a 1,500 pounds per square inch mean, we now want to know if the new lots are in line with the total population (production) of the plant. To do so, we are testint through a T Test on the total lots and per lot:  
+
+**T Test of the total production**
+
+
+![t_test_total](t_test_total.png)
+
+**T- Test per Lot**
+
+
+![t_test_1](t_test_1.png)
+![t_test_2](t_test_2.png)
+![t_test_3](t_test_3.png)
+
+Recall: Assuming our significance level was the common 0.05 percent, if our p-value is above our significance level we do not have sufficient evidence to reject the null hypothesis, and we would state that the the tasted mean is statistically similar to the population's mean. 
+
+Results: 
+
+1) Total Production's mean is statistically similar to the population's mean. 
+2) Lot 1 (Mean = 1,500) and Lot 2 (Mean=1,500.2) are also statistically similar to the population's mean, lot 3 (Mean = 1,496.14) is not. 
+
+
 ## Design a Study Comparing the MechaCar to the Competition
 
