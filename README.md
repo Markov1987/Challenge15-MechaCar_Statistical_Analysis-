@@ -20,6 +20,10 @@ Both statistically significant variables have non-zero coeficients and both are 
 
 ## Summary Statistics on Suspension Coils
 
+![Total_Summary](Total_Summary.png)
+
+![LOT_Summary](LOT_Summary.png)
+
 ## T-Test on Suspension Coils
 
 ## Design a Study Comparing the MechaCar to the Competition
