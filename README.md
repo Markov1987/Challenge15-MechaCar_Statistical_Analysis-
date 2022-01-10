@@ -1,4 +1,4 @@
-# Challenge15- MechaCar Statistical Analysis
+# MechaCar Statistical Analysis
 
 AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. Data Analytics team is reviewed production data for insights that may ghelp manufacturing team. 
 
