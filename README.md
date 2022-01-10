@@ -67,28 +67,12 @@ Results:
 
 ## Design a Study Comparing the MechaCar to the Competition
 
-As some final comments on the study, we would like to propose some further analysis that may be performed to test MechaCar performance against our competition at consumer's preference.
+As some final comments on the study, we would propose to invest some additional time (and possible money) into a further analysis that may be performed to test MechaCar performance against our competition at consumer's preference. 
 
-### Consumer's Prefer Specs ###
-
-We may want to review our competitor's total sales against each model specs to identify which are the specs that customers evaluate as more important in the top sales models, to do so, we would need to get statistical information of the sales per model and the main specs to run a regression as follows: 
+To do so, we want to review our competitor's total sales against each of their model's specs to identify which are the specs that customers evaluate as more important in the top sales models, to do so, we would need to get statistical information of the sales per model and the main specs to run a regression as follows: 
 
 **total_sales = a1 * Spec_1 + a2 * Spec_2 + ... + an * Spec_n + C**
 
-Results still need to be reviewed to identify statistically significance per Spec (p value) and total regression explanation power (R^2), if data is adequate, this analysis would let us identify if our models are competitive at specs level vs competition's top sellers. 
+Note the analyzed specs may range from MPG to specific media or security technologies, additionally, results still need to be reviewed to identify statistical significance per Spec (p-value) and total regression explanation power (R^2), surely, some variables may not be statistically significant, thus, we would want to remove them from our model to avoid overfitting problems. 
 
-Note specs range from MPG to specific media or security techonologies. 
-
-### AB Test ###
-
-### Price Elasticity ###
-
-Another easy analysis that may be useful would be to measure the direct price elasticity through a linear model of sales vs prices ( multiple excercises grouped by category) to identify how changes in prices may affect demand: 
-
-**Sales_per_group = a1* Price_of_vehicles_in_group + C**
-
-In this exercise, C is kind of a base demand for specific groups, nevertheless, the coefficient (expected to be negative) if statistically significant would let us know how increases or decreases of price may reduce or increase demand. 
-
-This information is pretty straightforward but allows us to see if our pricing campaigns are in line with the market and also if there is an interesting trade-off between price reduction and volume increase when the manufacturing process got inventories. 
-
-For this exercise, we would need an exhaustive database of last year's (or as recent as possible) sales per category and updated prices in our target markets. If the data comply with linear regression assumptions, we can rely on the results of the analysis. 
+If data is adequate, this analysis would let us identify the most valued specs and compare them against our models, this way, we may be able to identify if our models are competitive at specs level based on consumer's preferences. 
