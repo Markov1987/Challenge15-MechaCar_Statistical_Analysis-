@@ -73,6 +73,6 @@ To do so, we want to review our competitor's total sales against each of their m
 
 **total_sales = a1 * Spec_1 + a2 * Spec_2 + ... + an * Spec_n + C**
 
-Note the analyzed specs may range from MPG to specific media or security technologies, additionally, results still need to be reviewed to identify statistical significance per Spec (p-value) and total regression explanation power (R^2), surely, some variables may not be statistically significant, thus, we would want to remove them from our model to avoid overfitting problems. 
+Note the analyzed specs may range from MPG to specific media or security technologies, additionally, results still need to be reviewed to identify statistical significance per Spec (p-value) and total regression explanation power (R^2), surely, some variables may not be statistically significant (the hyphotesys that their coefficient is different to zero can't be supported), thus, we would want to remove them from our model to avoid overfitting problems. 
 
 If data is adequate, this analysis would let us identify the most valued specs and compare them against our models, this way, we may be able to identify if our models are competitive at specs level based on consumer's preferences. 
